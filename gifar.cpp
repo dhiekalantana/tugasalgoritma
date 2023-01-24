@@ -19,14 +19,15 @@ int main () {
 	int pilihan_menu;
 	char ulang;
 	int varian;
-    int jumlah,bayar,kembalian,total=0;
+    int bayar,kembalian,total=0;
+    int jumlah=100;
 	int nomor[]= {1,2,3,4,5};
 	int harga[5]= {10000,11000,13000,18000,15000};
 	string daftar_barang[] = {"ThaiTea", "GreenTea", "CoklatCreamy", "SusuRegal", "LemonMaduSoda"};
 	int daftar_harga[] = {7000, 8000, 13000, 15000, 15000};
 	int jumlah_elemen = sizeof(daftar_barang)/sizeof(daftar_barang[0]);
-	int input_user [100];
-	int input_jumlah [100];
+	int input_user [jumlah];
+	int input_jumlah [jumlah];
 	string key;
 
 	// Awal Pilihan Menu
